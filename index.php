@@ -32,18 +32,11 @@ require_once('templates/header.php');
     <div class="row">
 
 <?php
-foreach($recipes as $key=> $recipe){?>
+foreach($recipes as $key=> $recipe){
+    include('templates/recipe_partial.php'); 
+    ?>
 
-<div class="col-md-4">
-        <div class="card" style="width: 18rem;">
-       <img src="<?=_RECIPES_IMG_PATH_ .$recipe['image']?>" class="card-img-top" alt="mousse chocolat">
-        <div class="card-body">
-        <h5 class="card-title"><?=$recipe['titre']?></h5>
-        <p class="card-text"><?= $recipe['description']?></p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-   </div>
-    </div>
+
 
 <?php } 
 include('templates/footer.php')
