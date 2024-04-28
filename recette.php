@@ -6,11 +6,11 @@ require_once('lib/recipe.php');
 
 
 
- 
-       
+    
+        
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <h1>Liste des recettes</h1>
-    </div>
+            <h1>Liste des recettes</h1>
+        </div>
 
 
 <div class="row">
@@ -27,6 +27,3 @@ require_once('templates/footer.php')
 ;
 
 ?>
-
-    
-
