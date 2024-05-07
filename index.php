@@ -2,6 +2,8 @@
 
 require_once('templates/header.php');
 require_once('lib/recipe.php');
+
+
 ?>
 
 
@@ -26,14 +28,15 @@ require_once('lib/recipe.php');
     <div class="row">
 
 <?php
-foreach($recipes as $key=> $recipe){
+foreach ($recipes as $key => $recipe){
+
     include('templates/recipe_partial.php'); 
     ?>
 
 
 
 <?php } 
-include('templates/footer.php')
+require_once('templates/footer.php')
 ;
 
 ?>

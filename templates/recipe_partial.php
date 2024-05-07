@@ -4,7 +4,7 @@
         <div class="card-body">
         <h5 class="card-title"><?=$recipe['titre']?></h5>
         <p class="card-text"><?= $recipe['description']?></p>
-        <a href="" class="btn btn-primary">Lire la recette</a>
+        <a href="recette.php?id=<?=$key; ?>"class="btn btn-primary">Voire la recette</a>
     </div>
    </div>
     </div>
